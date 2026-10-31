@@ -1,12 +1,17 @@
 #include<iostream>
+#include<limits>
 class counter {
 private:
 	int value = { 0 };
 public:
-	counter(int n) :value{ n } {}
+	counter(int n) { setvalue(n); }
 	counter() {};
-	void crease() {
+	bool crease() {
+		if (value == std::numeric_limits<int>::max()) {
+			return false;
+		}
 		value += 1;
+		return true;
 	}
 	int getvalue() const {
 		return value;

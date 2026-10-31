@@ -11,6 +11,9 @@ int main() {
 		}
 		else {
 			count++;
+			if (count == 1000) {
+				break;
+			}
 		}
 	}
 	std::cout << count<< std::endl;
