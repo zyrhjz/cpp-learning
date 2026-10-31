@@ -1,4 +1,4 @@
-#include<iostream>;
+#include<iostream>
 int main() {
 	std::cout << "Name: hujunzhe" << std::endl;
 	std::cout << "Goal:lean c plus plus." << std::endl;
