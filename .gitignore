@@ -1,0 +1,23 @@
+# 编译产物和临时输出
+build/
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.pch
+*.log
+
+# 本地编辑器缓存
+.vs/
+*.suo
+*.user
+
+# 本地配置
+.env
+.env.*
+!.env.example
