@@ -21,7 +21,7 @@
 | [lesson-10](examples/lesson-10/main.cpp) | 类、对象与成员默认值 | 无 | `5`、`0` |
 | [lesson-11](examples/lesson-11/main.cpp) | 构造析构、封装与 const 成员函数 | 无 | `8`、`destroy 8`、`destroy 0` |
 | [lesson-12](examples/lesson-12/main.cpp) | 类与 const 对象的再次练习 | 无 | 当前与第 11 课内容基本相同 |
-| [lesson-13](examples/lesson-13/main.cpp) | 静态数据成员与类外定义 | 无 | `1`、`2` |
+| [lesson-13](examples/lesson-13/README.md) | 静态数据成员、类外定义与友元函数的两类练习 | 无 | 静态成员：`1`、`2`；友元函数：`7` |
 
 
 ## 运行方法
