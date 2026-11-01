@@ -1,6 +1,7 @@
 #include<iostream>
 class item {
 public:
+	//用来记录生成了几个对象//
 	static int created;
 	item() { created += 1; }
 };
