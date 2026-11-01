@@ -22,6 +22,7 @@
 | [lesson-11](examples/lesson-11/main.cpp) | 构造析构、封装与 const 成员函数 | 无 | `8`、`destroy 8`、`destroy 0` |
 | [lesson-12](examples/lesson-12/main.cpp) | 类与 const 对象的再次练习 | 无 | 当前与第 11 课内容基本相同 |
 | [lesson-13](examples/lesson-13/README.md) | 静态成员、友元函数与对象生命周期 | 无 | 静态成员：`1`、`2`；友元函数：`2`、`7`、`2` |
+| [lesson-14](examples/lesson-14/main.cpp) | 数组作为函数参数，按指定长度求和 | 无 | 全部 4 项之和为 `10`，前 2 项之和为 `2` |
 
 
 ## 运行方法
