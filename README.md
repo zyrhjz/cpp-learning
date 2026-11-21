@@ -23,6 +23,10 @@
 | [lesson-12](examples/lesson-12/main.cpp) | 类与 const 对象的再次练习 | 无 | 当前与第 11 课内容基本相同 |
 | [lesson-13](examples/lesson-13/README.md) | 静态成员、友元函数与对象生命周期 | 无 | 静态成员：`1`、`2`；友元函数：`2`、`7`、`2` |
 | [lesson-14](examples/lesson-14/main.cpp) | 数组作为函数参数，按指定长度求和 | 无 | 全部 4 项之和为 `10`，前 2 项之和为 `2` |
+| [lesson-15](examples/lesson-15/main.cpp) | 二维数组与行指针 | 无 | 移动到第二行后读取 `50` |
+| [lesson-16](examples/lesson-16/main.cpp) | `unique_ptr` 的所有权转移与指针借用 | 无 | 依次输出 `1`、`42`、借用地址和 `99` |
+| [lesson-17](examples/lesson-17/main.cpp) | 读取整行并统计小写 `a` | `Ada Lovelace` | `2`，空行输出 `0` |
+| [review-box](examples/review-box/main.cpp) | 构造、拷贝构造、析构、静态成员和友元 | 无 | `7`、`2`、`7`、`3`、`2` |
 
 
 ## 运行方法
@@ -56,7 +60,7 @@ build\lesson-13.exe
 powershell -NoProfile -ExecutionPolicy Bypass -File .\tests\run-checks.ps1
 ```
 
-脚本会分别编译 12 个练习，运行输入输出样例，并检查第 11、12 课计数器的构造、设置和加一边界。结果保存到 `build/checks/results.json`，生成文件不会提交到仓库。
+脚本会分别编译练习目录中的独立程序，运行已有的输入输出样例，并检查第 11、12 课计数器的构造、设置和加一边界。结果保存到 `build/checks/results.json`，生成文件不会提交到仓库。
 
 ## 后续练习
 
